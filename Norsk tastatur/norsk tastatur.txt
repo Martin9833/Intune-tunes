@@ -1,5 +1,5 @@
 DELAY 500
 GUI r
 DELAY 300
-STRING powershell -w hidden -ep bypass -c "iwr https://raw.githubusercontent.com/Martin9833/Intune-tunes/main/EN-display-NONB-keyboard-force.ps1 -OutFile $env:TEMP\setkb.ps1; powershell -ep bypass -f $env:TEMP\setkb.ps1; Remove-Item $env:TEMP\setkb.ps1"
+STRING powershell -w hidden -ep bypass -c "iwr 'https://raw.githubusercontent.com/Martin9833/Intune-tunes/main/Norsk%20tastatur/EN-display-NONB-keyboard-force.ps1' | iex"
 ENTER
